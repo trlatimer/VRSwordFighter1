@@ -1737,7 +1737,7 @@ MonoBehaviour:
     vrTarget: {fileID: 2097502285}
     rigTarget: {fileID: 1441731909}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
-    trackingRotationOffset: {x: 180, y: 90, z: 90}
+    trackingRotationOffset: {x: 0, y: 0, z: 0}
   leftHand:
     vrTarget: {fileID: 1099536896}
     rigTarget: {fileID: 747968246}
@@ -1749,7 +1749,7 @@ MonoBehaviour:
     trackingPositionOffset: {x: 0, y: 0, z: 0}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
   headConstraint: {fileID: 1441731909}
-  headBodyOffset: {x: 90, y: -90, z: 0}
+  headBodyOffset: {x: 0, y: -1.627, z: 0}
 --- !u!114 &1431507975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1806,7 +1806,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1441731908}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.627, z: 0}
+  m_LocalPosition: {x: 0, y: 1.627, z: 0.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3538,7 +3538,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097502284}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3649,9 +3649,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.01
+  near clip plane: 0.1
   far clip plane: 1000
-  field of view: 60
+  field of view: 79.60703
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
