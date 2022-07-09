@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1360
     height: 677
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 111
+  controlID: 166
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -308,7 +308,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -18028
+  m_LastSelectedObjectID: -2152
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -467,22 +467,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Network
+    - Assets/Packages/Photon/PhotonUnityNetworking/Resources
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Network
+  - Assets/Packages/Photon/PhotonUnityNetworking/Resources
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\julia\Unity\Projects\VRSwordFighter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 457}
-    m_SelectedIDs: 968c0000
-    m_LastClickedID: 35990
-    m_ExpandedIDs: 0000000070680000726800007468000076680000786800007a6800007c680000a2680000a6680000be6800007a8600007c86000000ca9a3b
+    scrollPos: {x: 0, y: 271}
+    m_SelectedIDs: 8e6a0000
+    m_LastClickedID: 27278
+    m_ExpandedIDs: 000000001e6a0000206a0000226a0000246a0000266a0000286a00002a6a0000766a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -510,7 +510,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000070680000726800007468000076680000786800007a6800007c680000
+    m_ExpandedIDs: 000000001e6a0000206a0000226a0000246a0000266a0000286a00002a6a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -537,7 +537,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300003c5f000078bc00008cd100008e660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -638,9 +638,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 968c0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 94b9ffff12caffff92faffff94faffff96faffffa0faffffbafaffffbcfaffffc0faffffc2faffffc4faffffc6faffffc8faffffcafaffffccfafffffefaffff00fbffff26fbfffff4ffffffb0640000c2640000d2640000f4640000fa6400003a6500004a6500004e650000f484000038850000
+      m_SelectedIDs: a6640000
+      m_LastClickedID: 25766
+      m_ExpandedIDs: 26fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -933,9 +933,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.21302941, y: 0.7827596, z: -1.588322}
+    m_Target: {x: 0.5765722, y: 1.1746914, z: 1.5791029}
     speed: 2
-    m_Value: {x: -0.21302941, y: 0.7827596, z: -1.588322}
+    m_Value: {x: 0.5765722, y: 1.1746914, z: 1.5791029}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -981,13 +981,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0038825902, y: 0.9790462, z: -0.20285882, w: -0.018801209}
+    m_Target: {x: -0.2798322, y: -0.6854033, z: 0.32628518, w: -0.5878033}
     speed: 2
-    m_Value: {x: -0.0038824899, y: 0.9790209, z: -0.20285358, w: -0.018800722}
+    m_Value: {x: 0.2798322, y: 0.68540335, z: -0.3262852, w: 0.5878033}
   m_Size:
-    m_Target: 1.9001352
+    m_Target: 1.9849721
     speed: 2
-    m_Value: 1.9001352
+    m_Value: 1.9849721
   m_Ortho:
     m_Target: 0
     speed: 2
