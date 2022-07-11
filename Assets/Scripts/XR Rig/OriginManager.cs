@@ -6,11 +6,11 @@ public class OriginManager : MonoBehaviour
     public float gravity = -9.81f;
     public LayerMask groundLayer;
     public float additionalHeight = 0.2f;
-    public GameObject body;
+
+    
 
     private float fallingSpeed;
     private XROrigin origin;
-    private Vector2 inputAxis;
     private CharacterController character;
 
     private void Start()
