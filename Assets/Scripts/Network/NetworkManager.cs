@@ -5,7 +5,7 @@ using Photon.Pun;
 using Photon.Realtime;
 
 [System.Serializable]
-public class DefaultRoom
+public class RoomSettings
 {
     public string Name;
     public int sceneIndex;
@@ -14,9 +14,6 @@ public class DefaultRoom
 
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
-    public List<DefaultRoom> defaultRooms;
-    public GameObject RoomUI;
-
     public void ConnectToServer()
     {
         PhotonNetwork.ConnectUsingSettings();
@@ -36,13 +33,10 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         Debug.Log("Joined Lobby");
         base.OnJoinedLobby();
-        RoomUI.SetActive(true);
     }
 
-    public void InitializeRoom(int defaultRoomIndex)
+    public void InitializeRoom(RoomSettings roomSettings)
     {
-        DefaultRoom roomSettings = defaultRooms[defaultRoomIndex];
-
         // Load scene
         PhotonNetwork.LoadLevel(roomSettings.sceneIndex);
 
