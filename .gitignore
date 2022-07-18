@@ -55,5 +55,8 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+# UserSettings
+/UserSettings/Layouts
+
 # Crashlytics generated file
 crashlytics-build.properties
